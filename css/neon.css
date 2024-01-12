@@ -1,0 +1,336 @@
+.header_eva{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-image: url("../img/eva_rebuild1.png");
+    background-color: rgba(0, 0, 0, 0.884);
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-size:cover;
+    background-position:top;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 2rem;
+}
+
+.Titulo_eva{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+.texto_cuerpo{
+    font-size: 2.2rem;
+    padding: .5rem;
+    margin: .5rem;
+    text-align: justify;
+}
+.eva_back{
+    background-image: url("../img/NGE1.jpg");
+    background-size: cover;
+}
+.nav_main{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 16% 16% 20% 16% 16% 16%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+
+.no_margin{
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.centro_body_1{
+    background-image: url("../img/rebuild31.jpg");
+    background-color: rgba(0, 0, 0, 0.719);
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+height: 100%;
+padding-bottom: 3rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.video_centro{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}  
+
+a::after{
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+a:visited{
+    color: aqua;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.article_main{
+    background-color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.articule_grid{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+    padding: 1rem;
+}
+
+.img_cuerpo{
+    width: 25rem;
+}
+
+.img_card{
+    border-color: beige;
+    border-style: solid;
+    border-width: .5rem;
+    padding: 5rem;
+    border-radius: 3%;
+    background-color: rgb(235, 232, 229);
+}
+
+.staff_box{
+    background-color: rgb(21, 21, 37);
+    padding: 2rem;
+    margin:0 ;
+}
+
+.Staff_div{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 3%;
+   
+}
+.tarjeta_Staff{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgb(17, 20, 20);
+    border-radius: 5%;
+    text-align: center;
+    border-top-color: white;
+    border-left-color: rgb(139, 23, 23);
+    border-right-color: blue;
+    border-bottom-color: yellow;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 60% 35%;
+    padding: .03%;
+    overflow: hidden;
+    height: 60rem;
+}
+
+.img_staff{
+  object-fit: contain;
+  width:100%;
+  height:100%;
+}
+.imagen_staff{
+    padding: .5rem;
+
+}
+
+.imagen_eva_1{
+    background-image: url("../img/asuka.jpg");
+    background-size: cover;
+    padding: 1rem;
+}
+
+
+.imagen_eva_2{
+    background-image: url("../img/rei.jpg");
+    background-size: cover;
+    padding: 1rem;
+}
+
+
+.imagen_eva_3{
+    background-image: url("../img/shinji.jpg");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.imagen_eva_4{
+    background-image: url("../img/misato.jpg");
+    background-size: cover;
+    background-position: top;
+    padding: 1rem;
+}
+
+
+.text_staff{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-self: center;
+}
+
+.footer_main{
+    
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-image: url("../img/NGE-footer.jpg");
+        background-color: rgba(0, 0, 0, 0.89);
+        background-repeat: no-repeat;
+        background-blend-mode:darken;
+        background-size:cover;
+        background-position:center;
+        background-attachment: sticky;
+        margin: 0;
+        padding: 2rem;
+    
+}
+
+@media only screen and (max-width:1600px){
+        
+    html{
+        box-sizing: content-box;
+        overflow-x: hidden;
+    }
+
+    .articule_grid{
+        display: grid;
+        grid-template-columns: 60% 30%;
+        gap: 2%;
+        padding: 1rem;
+    }
+    
+    .img_cuerpo{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .img_card{
+        border-color: rgb(6, 12, 32);
+        border-style:groove;
+        border-width: .5rem;
+        padding: 1rem;
+        border-radius: 3%;
+        background-color: rgb(5, 53, 23);
+    }
+    .tamaño{
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+        
+    html{
+        box-sizing: content-box;
+        overflow-x: hidden;
+    }
+
+    .articule_grid{
+        display: grid;
+        grid-template-columns: 60% 30%;
+        gap: 5%;
+        padding: 1rem;
+    }
+    
+    .img_cuerpo{
+        width: 20rem;
+        height: 20rem;
+    }
+    
+    .img_card{
+        border-color: rgb(5, 47, 185);
+        border-style: solid;
+        border-width: .5rem;
+        padding: 1rem;
+        border-radius: 3%;
+        background-color: rgb(197, 111, 24);
+    }
+
+    .Staff_div{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 40% 40%;
+        gap: 3%;
+       
+    }
+
+    .texto_cuerpo{
+        font-size: 1.2rem;
+        padding: .5rem;
+        margin: .5rem;
+        text-align: justify;
+    }
+
+    .imagen_eva_4{
+        background-image: url("../img/misato.jpg");
+        background-size: cover;
+        background-position: top;
+        padding: 1rem;
+    }
+
+    .header_eva{
+        display: grid;
+        height: fit-content;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 15% 15% 15% 15% 15% 15%;
+        background-image: url("../img/eva_rebuild1.png");
+        background-color: rgba(0, 0, 0, 0.884);
+        background-repeat: no-repeat;
+        background-blend-mode:darken;
+        background-size:cover;
+        background-position:top;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 2rem;
+    }
+    .nav_grid{
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+      
+    }
+
+    .header_eva{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        height: fit-content;
+        background-image: url("../img/eva_rebuild1.png");
+        background-color: rgba(0, 0, 0, 0.884);
+        background-repeat: no-repeat;
+        background-blend-mode:darken;
+        background-size:cover;
+        background-position:top;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .tamaño{
+        width: 100%;
+        height: fit-content;
+    }
+}
