@@ -68,9 +68,10 @@ background-size: cover;
 }
 
 .video_centro{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 3rem;
+    align-content="center";
 }  
 
 a::after{
