@@ -13,7 +13,7 @@
 }
 
 .video_size{
-    width="100" height="200"
+    width="1280" height="720"
 }
 
 .Titulo_eva{
@@ -244,7 +244,7 @@ body{
         background-color: rgb(197, 111, 24);
     }
 
-    iframe{
+    .video_size{
 
         width:"720";
         height: "480";
