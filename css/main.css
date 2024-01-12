@@ -12,6 +12,8 @@
     padding: 2rem;
 }
 
+
+
 .Titulo_eva{
     font-family:'Times New Roman', Times, serif;
     color: white;
@@ -240,4 +242,9 @@ body{
         background-color: rgb(197, 111, 24);
     }
 
+    iframe{
+
+        width:"720";
+        height: "480";
+    }
 }
