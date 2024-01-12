@@ -12,7 +12,9 @@
     padding: 2rem;
 }
 
-
+.video_size{
+    width="100" height="200"
+}
 
 .Titulo_eva{
     font-family:'Times New Roman', Times, serif;
